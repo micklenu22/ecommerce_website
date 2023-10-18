@@ -3,22 +3,18 @@ const createNav = () => {
 
     nav.innerHTML = `
         <div class="nav">
+        <a href="index.html">
             <img src="img/logo.png" class="brand-logo" alt="">
-            <div class="nav-items">
-                <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product">
-                    <button class="search-btn">search</button>
-                </div>
-                <a href="#"><img src="img/user.jpg" alt=""></a>
-                <a href="#"><img src="img/cart.jpg" alt=""></a>
+            </a>
+            <div class="nav-items">                
+                
             </div>
         </div>
         <ul class="links-container">
-            <li class="link-item"><a href="#" class="link">home</a></li>
-            <li class="link-item"><a href="#" class="link">women</a></li>
-            <li class="link-item"><a href="#" class="link">men</a></li>
-            <li class="link-item"><a href="#" class="link">kids</a></li>
-            <li class="link-item"><a href="#" class="link">accessories</a></li>
+            <li class="link-item"><a href="index.html" class="link">Home</a></li>
+            <li class="link-item"><a href="women.html" class="link">Women</a></li>
+            <li class="link-item"><a href="men.html" class="link">Men</a></li>            
+            <li class="link-item"><a href="blog.html" class="link">Blog</a></li>
         </ul>
     `;
 }
