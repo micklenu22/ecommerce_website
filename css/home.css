@@ -58,12 +58,12 @@ body{
 
 .product-card{
     flex: 0 0 auto;
-    width: 400px;
-    height: 650px;
+    width: 200px;
+    height: 300px;
     margin-right: 55px;
 }
 
-.product-image{
+.product-thumb{ 
     position: relative;
     width: 100%;
     height: 350px;
