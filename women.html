@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/product.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="highslide/highslide.js"></script>
+    <link rel="stylesheet" href="highslide/highslide" />
     <title>Product</title>
   </head>
 
@@ -43,8 +45,9 @@
         <input type="radio" name="size" value="xxl" hidden id="xxl-size" />
         <label for="xxl-size" class="size-radio-btn">xxl</label>
 
-        <button class="btn cart-btn">add to cart</button>
-        <button class="btn">add to wishlist</button>
+        <button class="btn cart-btn">Add To Cart</button>
+        >
+
       </div></div>
       </section>    
 
@@ -52,8 +55,11 @@
 
         <div class="product-card">
           <div class="product-image">
-            <img src="img/pants1w.jpg" class="product-thumb" alt="">
-            <button class="card-btn">Add To Wishlist</button>
+            <button class="btn cart-btn">Click to enlarge<a href="img/pants1w.jpg" class="highslide" onclick="return hs.expand(this)">        
+              <img src="img/pants1w.jpg" alt="ceramic jug" width="100" height="150"></a></button> 
+            
+        </a>  
+            
             <span class="discount-tag">50% off</span>            
         </div>        
     </section>
@@ -65,30 +71,32 @@
       <button class="pre-btn"><img src="img/right.jpg" alt=""></button>
       <button class="nxt-btn"><img src="img/right.jpg" alt=""></button>            
       <div class="product-container">        
+        
         <div class="product-card">
-
-            
           <div class="product-image">
-                <span class="discount-tag">50% off</span>
-                <img src="img/shirt1wm.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Add To Wishlist</button>
-            </div>
+                <span class="discount-tag">50% off</span>           
+                <button class="btn cart-btn"><a href="img/shirtw2.jpg" class="highslide" onclick="return hs.expand(this)">        
+                  <img src="img/shirtw2.jpg" alt="ceramic jug" width="100" height="150"></a></button>         
+             </div>
+             
             <div class="product-info">
+              <button class="btn cart-btn">Add To Cart</button>
                 <h2 class="product-brand">brand</h2>
                 <p class="product-short-des">a short line about the cloth..</p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
+                
             </div> 
-        </div>
-        
+        </div>        
             
           <div class="product-card">
         <div class="product-image">
           <span class="discount-tag">50% off</span>
-          <img src="img/shirtsw5.jpg" class="product-thumb" alt="">
-          <button class="card-btn">Add To Wishlist</button>
-      </div>
-
+          <button class="btn cart-btn"><a href="img/shirtsw5.jpg" class="highslide" onclick="return hs.expand(this)">        
+            <img src="img/shirtsw5.jpg" alt="ceramic jug" width="100" height="150"></a></button>     
+       </div>         
+      
       <div class="product-info">
+        <button class="btn cart-btn">Add To Cart</button>
         <h2 class="product-brand">brand</h2>
         <p class="product-short-des">a short line about the cloth..</p>
         <span class="price">$30</span><span class="actual-price">$60</span>
@@ -99,11 +107,14 @@
             <div class="product-card">
           <div class="product-image">
             <span class="discount-tag">50% off</span>
-            <img src="img/shirt2mw.jpg" class="product-thumb" alt="">
-            <button class="card-btn">Add To Wishlist</button>
+            <button class="btn cart-btn"><a href="img/shirt2mw.jpg" class="highslide" onclick="return hs.expand(this)">        
+              <img src="img/shirt2mw.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+            
+            
         </div>
   
         <div class="product-info">
+          <button class="btn cart-btn">Add To Cart</button>
           <h2 class="product-brand">brand</h2>
           <p class="product-short-des">a short line about the cloth..</p>
           <span class="price">$25</span><span class="actual-price">$50</span>
@@ -113,11 +124,14 @@
         <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="img/shirtm3.jpg" class="product-thumb" alt="">
-        <button class="card-btn">Add To Wishlist</button>
+        <button class="btn cart-btn"><a href="img/shirtm3.jpg" class="highslide" onclick="return hs.expand(this)">        
+          <img src="img/shirtm3.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+  
+        
     </div>
 
     <div class="product-info">
+      <button class="btn cart-btn">Add To Cart</button>
       <h2 class="product-brand">brand</h2>
       <p class="product-short-des">a short line about the cloth..</p>
       <span class="price">$25</span><span class="actual-price">$50</span>
@@ -127,11 +141,13 @@
         <div class="product-card">
           <div class="product-image">
             <span class="discount-tag">50% off</span>
-            <img src="img/shirtw2.jpg" class="product-thumb" alt="">
-            <button class="card-btn">Add To Wishlist</button>
-        </div>
+            <button class="btn cart-btn"><a href="img/shirtw2.jpg" class="highslide" onclick="return hs.expand(this)">        
+              <img src="img/shirtw2.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+            
+          </div>
     
         <div class="product-info">
+          <button class="btn cart-btn">Add To Cart</button>
           <h2 class="product-brand">brand</h2>
           <p class="product-short-des">a short line about the cloth..</p>
           <span class="price">$25</span><span class="actual-price">$50</span>
@@ -141,11 +157,14 @@
             <div class="product-card">
               <div class="product-image">
                 <span class="discount-tag">50% off</span>
-                <img src="img/shirtw3.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Add To Wishlist</button>
+                <button class="btn cart-btn"><a href="img/shirtw3.jpg" class="highslide" onclick="return hs.expand(this)">        
+                  <img src="img/shirtw3.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                             
+                
             </div>
         
             <div class="product-info">
+              <button class="btn cart-btn">Add To Cart</button>
               <h2 class="product-brand">brand</h2>
               <p class="product-short-des">a short line about the cloth..</p>
               <span class="price">$25</span><span class="actual-price">$50</span>
@@ -161,15 +180,18 @@
                     <button class="pre-btn"><img src="img/right.jpg" alt=""></button>
                     <button class="nxt-btn"><img src="img/right.jpg" alt=""></button>            
                     <div class="product-container">        
-                      <div class="product-card">
+                      
               
-                          
+                      <div class="product-card">
                         <div class="product-image">
                               <span class="discount-tag">50% off</span>
-                              <img src="img/hats1w.jpg" class="product-thumb" alt="">
-                              <button class="card-btn">Add To Wishlist</button>
+                              <button class="btn cart-btn"><a href="img/hats1w.jpg" class="highslide" onclick="return hs.expand(this)">        
+                                <img src="img/hats1w.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                                           
                           </div>
+
                           <div class="product-info">
+                            <button class="btn cart-btn">Add To Cart</button>
                               <h2 class="product-brand">brand</h2>
                               <p class="product-short-des">a short line about the cloth..</p>
                               <span class="price">$20</span><span class="actual-price">$40</span>
@@ -180,11 +202,14 @@
                         <div class="product-card">
                       <div class="product-image">
                         <span class="discount-tag">50% off</span>
-                        <img src="img/hats2w.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">Add To Wishlist</button>
+                        <button class="btn cart-btn"><a href="img/hats2w.jpg" class="highslide" onclick="return hs.expand(this)">        
+                          <img src="img/hats2w.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                        
+                        
                     </div>
               
                     <div class="product-info">
+                      <button class="btn cart-btn">Add To Cart</button>
                       <h2 class="product-brand">brand</h2>
                       <p class="product-short-des">a short line about the cloth..</p>
                       <span class="price">$30</span><span class="actual-price">$60</span>
@@ -195,11 +220,12 @@
                           <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/hats3w.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
-                      </div>
+                          <button class="btn cart-btn"><a href="img/hats3w.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/hats3w.jpg" alt="ceramic jug" width="100" height="150"></a></button>                        
+                          </div>
                 
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
@@ -209,11 +235,14 @@
                       <div class="product-card">
                     <div class="product-image">
                       <span class="discount-tag">50% off</span>
-                      <img src="img/hatw5.jpg" class="product-thumb" alt="">
-                      <button class="card-btn">Add To Wishlist</button>
+                      <button class="btn cart-btn"><a href="img/hatsw5.jpg" class="highslide" onclick="return hs.expand(this)">        
+                        <img src="img/hatsw5.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                      
+                      
                   </div>
               
                   <div class="product-info">
+                    <button class="btn cart-btn">Add To Cart</button>
                     <h2 class="product-brand">brand</h2>
                     <p class="product-short-des">a short line about the cloth..</p>
                     <span class="price">$25</span><span class="actual-price">$50</span>
@@ -223,17 +252,17 @@
                       <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/hatw4.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
-                      </div>
-                  
+                          <button class="btn cart-btn"><a href="img/hatsw4.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/hatsw4.jpg" alt="ceramic jug" width="100" height="150"></a></button>                       
+                        </div>           
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
                     </div>       
                           </div>   
-                                        
+                      </div>            
                                 </section>
 
                                 <!--cards accessories container-->
@@ -243,15 +272,17 @@
                     <button class="pre-btn"><img src="img/right.jpg" alt=""></button>
                     <button class="nxt-btn"><img src="img/right.jpg" alt=""></button>            
                     <div class="product-container">        
-                      <div class="product-card">
+                      
               
-                          
+                      <div class="product-card">
                         <div class="product-image">
                               <span class="discount-tag">50% off</span>
-                              <img src="img/accessoriesw1.jpg" class="product-thumb" alt="">
-                              <button class="card-btn">Add To Wishlist</button>
-                          </div>
+                              <button class="btn cart-btn"><a href="img/accessoriesw1.jpg" class="highslide" onclick="return hs.expand(this)">        
+                                <img src="img/accessoriesw1.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                        </div>
+                              
                           <div class="product-info">
+                            <button class="btn cart-btn">Add To Cart</button>
                               <h2 class="product-brand">brand</h2>
                               <p class="product-short-des">a short line about the cloth..</p>
                               <span class="price">$20</span><span class="actual-price">$40</span>
@@ -262,11 +293,14 @@
                         <div class="product-card">
                       <div class="product-image">
                         <span class="discount-tag">50% off</span>
-                        <img src="img/accessoriesw2.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">Add To Wishlist</button>
+                        <button class="btn cart-btn"><a href="img/accessoriesw2.jpg" class="highslide" onclick="return hs.expand(this)">        
+                          <img src="img/accessoriesw2.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                        
+                        
                     </div>
               
                     <div class="product-info">
+                      <button class="btn cart-btn">Add To Cart</button>
                       <h2 class="product-brand">brand</h2>
                       <p class="product-short-des">a short line about the cloth..</p>
                       <span class="price">$30</span><span class="actual-price">$60</span>
@@ -277,11 +311,13 @@
                           <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/accessoriesw3.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
+                          <button class="btn cart-btn"><a href="img/accessoriesw3.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/accessoriesw3.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                            
                       </div>
                 
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
@@ -291,11 +327,12 @@
                       <div class="product-card">
                     <div class="product-image">
                       <span class="discount-tag">50% off</span>
-                      <img src="img/accessoriesw4.jpg" class="product-thumb" alt="">
-                      <button class="card-btn">Add To Wishlist</button>
+                      <button class="btn cart-btn"><a href="img/accessoriesw4.jpg" class="highslide" onclick="return hs.expand(this)">        
+                        <img src="img/accessoriesw4.jpg" alt="ceramic jug" width="100" height="150"></a></button>                                            
                   </div>
               
                   <div class="product-info">
+                    <button class="btn cart-btn">Add To Cart</button>
                     <h2 class="product-brand">brand</h2>
                     <p class="product-short-des">a short line about the cloth..</p>
                     <span class="price">$25</span><span class="actual-price">$50</span>
@@ -305,17 +342,19 @@
                       <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/accessoriesw5.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
+                          <button class="btn cart-btn"><a href="img/accessoriesw5.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/accessoriesw5.jpg" alt="ceramic jug" width="100" height="150"></a></button>                        
+                          
                       </div>
                   
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
                     </div>       
                           </div>   
-                                        
+                      </div>         
                                 </section>
 
                                 <!--cards shoes container-->
@@ -330,25 +369,28 @@
                           
                         <div class="product-image">
                               <span class="discount-tag">50% off</span>
-                              <img src="img/shoes3mf.jpg" class="product-thumb" alt="">
-                              <button class="card-btn">Add To Wishlist</button>
+                              <button class="btn cart-btn"><a href="img/shoes3mf.jpg" class="highslide" onclick="return hs.expand(this)">        
+                                <img src="img/shoes3mf.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                                            
                           </div>
                           <div class="product-info">
+                            <button class="btn cart-btn">Add To Cart</button>
                               <h2 class="product-brand">brand</h2>
                               <p class="product-short-des">a short line about the cloth..</p>
                               <span class="price">$20</span><span class="actual-price">$40</span>
                           </div> 
                       </div>
-                      
-                          
+                                                
                         <div class="product-card">
                       <div class="product-image">
                         <span class="discount-tag">50% off</span>
-                        <img src="img/shoesw2.jpg" class="product-thumb" alt="">
-                        <button class="card-btn">Add To Wishlist</button>
+                        <button class="btn cart-btn"><a href="img/shoesw2.jpg" class="highslide" onclick="return hs.expand(this)">        
+                          <img src="img/shoesw2.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                               
                     </div>
               
                     <div class="product-info">
+                      <button class="btn cart-btn">Add To Cart</button>
                       <h2 class="product-brand">brand</h2>
                       <p class="product-short-des">a short line about the cloth..</p>
                       <span class="price">$30</span><span class="actual-price">$60</span>
@@ -359,11 +401,13 @@
                           <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/shoesw3.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
+                          <button class="btn cart-btn"><a href="img/shoesw3.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/shoesw3.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                                    
                       </div>
                 
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
@@ -373,11 +417,13 @@
                       <div class="product-card">
                     <div class="product-image">
                       <span class="discount-tag">50% off</span>
-                      <img src="img/shoesw4.jpg" class="product-thumb" alt="">
-                      <button class="card-btn">Add To Wishlist</button>
+                      <button class="btn cart-btn"><a href="img/shoesw4.jpg" class="highslide" onclick="return hs.expand(this)">        
+                        <img src="img/shoesw4.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                            
                   </div>
               
                   <div class="product-info">
+                    <button class="btn cart-btn">Add To Cart</button>
                     <h2 class="product-brand">brand</h2>
                     <p class="product-short-des">a short line about the cloth..</p>
                     <span class="price">$25</span><span class="actual-price">$50</span>
@@ -387,17 +433,19 @@
                       <div class="product-card">
                         <div class="product-image">
                           <span class="discount-tag">50% off</span>
-                          <img src="img/shoesw5.jpg" class="product-thumb" alt="">
-                          <button class="card-btn">Add To Wishlist</button>
+                          <button class="btn cart-btn"><a href="img/shoesw5.jpg" class="highslide" onclick="return hs.expand(this)">        
+                            <img src="img/shoesw5.jpg" alt="ceramic jug" width="100" height="150"></a></button>
+                                                    
                       </div>
                   
                       <div class="product-info">
+                        <button class="btn cart-btn">Add To Cart</button>
                         <h2 class="product-brand">brand</h2>
                         <p class="product-short-des">a short line about the cloth..</p>
                         <span class="price">$25</span><span class="actual-price">$50</span>
                     </div>       
                           </div>   
-                                        
+                    </div>      
                                 </section>
 
 

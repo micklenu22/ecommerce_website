@@ -11,11 +11,11 @@ background-color: #7db5ff;
 }
 
 .image-slider{
-    width: 500px;
+    width: 800px;
     height: 500px;
     position: relative;
     background-image: url('../img/shirt1m1.jpg');
-    background-size: cover;
+    background-size:cover;
 }
 
 
@@ -113,7 +113,7 @@ background-color: #7db5ff;
     border-radius: 5px;
     background: none;
     border: 1px solid #383838;
-    color: #383838;
+    color: #f8f3f3;
     font-size: 20px;
     cursor: pointer;
     margin: 20px 0;
@@ -140,3 +140,30 @@ background-color: #7db5ff;
     color: #383838;
     line-height: 25px;
 }
+
+@media (max-width: 700px) {
+
+    header, nav, a {
+  float: none;
+  margin-top: 0px;
+  
+    }
+  
+    header, nav, button, a {
+  display: block;
+  margin: 25px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+    }
+  
+    header, img, .image-slider {
+  display: block;
+  margin: left;
+  margin-bottom: 25px;
+    }
+  
+    aside, article, .Banner {
+  display: block;
+  margin: center;
+    }
+  }

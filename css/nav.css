@@ -59,3 +59,30 @@
 .link:hover{
     opacity: 1;
 }
+
+@media (max-width: 700px) {
+
+    header, nav, a {
+  float: none;
+  margin-top: 0px;
+  
+    }
+  
+    header, nav, button, a {
+  display: block;
+  margin: 25px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+    }
+  
+    header, img {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+    }
+  
+    aside, article, .Banner {
+  display: block;
+  margin: center;
+    }
+  }
