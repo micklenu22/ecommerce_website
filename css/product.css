@@ -15,6 +15,7 @@ background-color: #7db5ff;
     height: 500px;
     position: relative;
     background-image: url('../img/shirt1m1.jpg');
+    background-size: cover;
 }
 
 .product-images{
