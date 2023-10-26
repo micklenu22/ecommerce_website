@@ -11,13 +11,11 @@ background-color: #7db5ff;
 }
 
 .image-slider{
-    width: 800px;
+    width: 500px;
     height: 500px;
     position: relative;
     background-image: url('../img/shirt1m1.jpg');
-    background-size:cover;
 }
-
 
 .product-images{
     position: absolute;
@@ -110,7 +108,7 @@ background-color: #7db5ff;
 .btn{
     width: 48%;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     background: none;
     border: 1px solid #383838;
     color: #f8f3f3;
@@ -120,8 +118,9 @@ background-color: #7db5ff;
     text-transform: capitalize;
 }
 
-.cart-btn{
+.cart-btn{ 
     margin-right: 2%;
+    font-size:xx-small;
     background: #383838;
     color: #fff;
 }
